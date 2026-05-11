@@ -2,6 +2,8 @@
 
 A Python-based Operating Systems project that simulates dynamic memory allocation techniques and memory segmentation strategies using an interactive GUI.
 
+---
+
 ## Features
 
 - Dynamic memory allocation simulation
@@ -14,11 +16,15 @@ A Python-based Operating Systems project that simulates dynamic memory allocatio
 - User-friendly graphical interface
 - Executable `.exe` support using PyInstaller
 
+---
+
 ## Technologies Used
 
 - Python 3
 - Tkinter (GUI)
 - PyInstaller
+
+---
 
 ## Project Structure
 
@@ -32,10 +38,14 @@ OS_Memory_Allocation_V2/
 └── screenshots/
 ```
 
+---
+
 ## How to Run
 
-### 1. Run using the EXE file 
-open dist folder 
+### 1. Run Using the EXE File
+
+Open the `dist` folder and run:
+
 ```text
 dist/memory_segmentation_v2.exe
 ```
@@ -46,7 +56,9 @@ dist/memory_segmentation_v2.exe
 python memory_segmentation_v2.py
 ```
 
-### Build Executable File
+---
+
+## Build Executable File
 
 ```bash
 python -m PyInstaller --onefile --windowed --clean memory_segmentation_v2.py
@@ -58,14 +70,19 @@ The generated executable will be located in:
 dist/memory_segmentation_v2.exe
 ```
 
+---
+
 ## Memory Allocation Algorithms
 
 ### First Fit
+
 Allocates the first available memory block that is large enough for the process.
 
 ### Best Fit
+
 Allocates the smallest available memory block that can fit the process, minimizing wasted space.
 
+---
 
 ## Educational Objectives
 
@@ -73,7 +90,12 @@ This project demonstrates:
 
 - Dynamic memory management
 - Internal and external fragmentation
-- Allocation strategies
+- Memory allocation strategies
 - Operating system memory concepts
-- GUI development with Python
+- GUI development using Python
 
+---
+
+## Author
+
+Kirollos Elkess Antonious Louiz
