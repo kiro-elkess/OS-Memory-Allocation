@@ -34,13 +34,13 @@ OS_Memory_Allocation_V2/
 
 ## How to Run
 
-### Run using the EXE file 
+### 1. Run using the EXE file 
 open dist folder 
 ```text
 dist/memory_segmentation_v2.exe
 ```
 
-### Run Using Python
+### 2. Run Using Python
 
 ```bash
 python memory_segmentation_v2.py
