@@ -34,6 +34,12 @@ OS_Memory_Allocation_V2/
 
 ## How to Run
 
+### Run using the EXE file 
+open dist folder 
+```text
+dist/memory_segmentation_v2.exe
+```
+
 ### Run Using Python
 
 ```bash
@@ -60,15 +66,6 @@ Allocates the first available memory block that is large enough for the process.
 ### Best Fit
 Allocates the smallest available memory block that can fit the process, minimizing wasted space.
 
-## Screenshots
-
-Add your screenshots inside a `screenshots` folder and reference them here.
-
-Example:
-
-```markdown
-![Main Interface](screenshots/interface.png)
-```
 
 ## Educational Objectives
 
@@ -80,10 +77,3 @@ This project demonstrates:
 - Operating system memory concepts
 - GUI development with Python
 
-## Contributors
-
-- Kirollos Elkess Antonious Louiz
-
-## License
-
-This project is for educational purposes.
